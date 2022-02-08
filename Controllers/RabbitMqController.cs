@@ -29,6 +29,14 @@ namespace HttpIntegrationRabbitMq.Controllers
             return Ok(message);
         }
 
+        [Route("publish-to-queue")]
+        [HttpPost]
+        public ActionResult PublishMessageToQueue([FromBody] PublishToQueue message)
+        {
+            var result = _busClient.Publish(message, message.QueueName);
+            return Ok(message);
+        }
+
         [Route("publish/deuda-pagada")]
         [HttpPost]
         public ActionResult PublisDeudaCancelada([FromBody] PublishMessage<DeudaPagada> message)
