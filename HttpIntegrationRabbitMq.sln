@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpIntegrationRabbitMq", "HttpIntegrationRabbitMq.csproj", "{D1D2E001-9EFD-4A41-BA9B-9A8CF6F83378}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1D2E001-9EFD-4A41-BA9B-9A8CF6F83378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D2E001-9EFD-4A41-BA9B-9A8CF6F83378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D2E001-9EFD-4A41-BA9B-9A8CF6F83378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D2E001-9EFD-4A41-BA9B-9A8CF6F83378}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D7ED011-0681-45F2-B665-22D2E48A3531}
+	EndGlobalSection
+EndGlobal
